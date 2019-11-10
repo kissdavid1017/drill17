@@ -60,7 +60,9 @@ cout<<endl;
     int* t=new int[20];
 
     for (int i = 0; i<20; ++i)
+    {
            t[i] = 100 + i;
+    }
 
     print_array(cout,t,20);
 
@@ -70,7 +72,9 @@ cout<<endl;
     vector<int> v;
 
     for (int i = 0; i<10; ++i)
+    {
         v.push_back(100+i);
+    }
 
     print_vector(cout,v);
    // delete[]v;
